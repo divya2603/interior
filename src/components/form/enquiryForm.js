@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
 
 class EnquiryForm extends Component {
+    constructor() {
+        super();
+        this.handleClick = this.handleClick.bind(this);
+        this.state = {showModal:true}
+    }
+
+    handleClick(e) {
+        e.preventDefault();
+        if(!this.node.contains(e.target) || (e.target.id === "close-btn")) {
+            this.setState({showModal:false})
+        }
+    }
+
     render() {
+        if(this.state.showModal) {
         return (
-            <div className="modal fade in" id="myModalneo" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div className="modal-dialog custom-model">
+            <div ref = {node => this.node = node} className="modal fade in" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" onClick={this.handleClick} >
+                <div className="modal-dialog custom-model" >
                     <div className="modal-content">
                         <div className="modal-body">
-                            <button type="button" className="close ss-close-modal-btn" data-dismiss="modal" aria-label="Close"></button>          
+                            <button type="button" id="close-btn" className="close ss-close-modal-btn" data-dismiss="modal" aria-label="Close" onClick={this.handleClick}></button>          
                             <div className="center-block" id="enquiry1"> 
                                 <h3  className="text-center">Enquire With Us</h3>                
                                 <form className="form-horizontal" name="priceEnquiry" id="priceEnquiry" action="" method="post" encType="multipart/form-data" role="form">
@@ -42,11 +56,7 @@ class EnquiryForm extends Component {
                                         </div>
                                     </div>                                    
                                     <div className="form-group">
-                                        <div className="col-sm-offset-3 col-sm-6">
-                                        <button id="send" className="btn btn-sm but-submit">Submit</button>
-                                        <label id="sending" ><em>sending...</em></label>
-                                        <input type="hidden" name="prod_id" id="prod_id" value="neo" />
-                                        </div>
+                                        <button className="col-sm-8 btn-sm but-submit">Submit</button>
                                     </div>
                                 </form>                   
                             </div>
@@ -54,7 +64,9 @@ class EnquiryForm extends Component {
                     </div>
                 </div>
             </div>
-        )
+        )} else {
+            return null;
+        }
     }
   }
   
