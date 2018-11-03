@@ -23,7 +23,7 @@ class OurWork extends Component {
                             </li>
                             <li>
                                 <a href="https://plus.google.com/+Livspace" target="_blank" className="img img-circle">
-                                    <i className="ifa fa-google-plus" aria-hidden="true"></i>
+                                    <i className="fa fa-google-plus" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li>

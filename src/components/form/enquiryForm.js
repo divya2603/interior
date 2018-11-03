@@ -4,12 +4,12 @@ class EnquiryForm extends Component {
     constructor() {
         super();
         this.handleClick = this.handleClick.bind(this);
-        this.state = {showModal:true}
+        this.state = {showModal:false}
     }
 
     handleClick(e) {
         e.preventDefault();
-        if(!this.node.contains(e.target) || (e.target.id === "close-btn")) {
+        if(e.target.classList.contains('modal') || (e.target.id === "close-btn")) {
             this.setState({showModal:false})
         }
     }
@@ -17,7 +17,7 @@ class EnquiryForm extends Component {
     render() {
         if(this.state.showModal) {
         return (
-            <div ref = {node => this.node = node} className="modal fade in" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" onClick={this.handleClick} >
+            <div className="modal fade in" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" onClick={this.handleClick} >
                 <div className="modal-dialog custom-model" >
                     <div className="modal-content">
                         <div className="modal-body">

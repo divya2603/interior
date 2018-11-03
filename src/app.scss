@@ -236,7 +236,6 @@ ul li{
     min-width: 100%;
     //height: calc(100vh - 63px);
     z-index: 0;
-    max-height: 92vh;
 }
 
 // nav bar
@@ -801,3 +800,6 @@ ul li{
 }
 
 @import './components/form/enquiryForm';
+@import './components/carousal/slider';
+@import './components/stories/customerReach';
+@import './components/homepage/banner/topTile';
