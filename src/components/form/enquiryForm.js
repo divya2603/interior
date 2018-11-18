@@ -11,11 +11,12 @@ class EnquiryForm extends Component {
         e.preventDefault();
         if(e.target.classList.contains('modal') || (e.target.id === "close-btn")) {
             this.setState({showModal:false})
+        } else if(e.target.id === "enquiry-btn") {
+            this.setState({showModal:true})
         }
     }
 
-    render() {
-        if(this.state.showModal) {
+    enquiryFormLayout() {
         return (
             <div className="modal fade in" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" onClick={this.handleClick} >
                 <div className="modal-dialog custom-model" >
@@ -56,7 +57,7 @@ class EnquiryForm extends Component {
                                         </div>
                                     </div>                                    
                                     <div className="form-group">
-                                        <button className="col-sm-8 btn-sm but-submit">Submit</button>
+                                        <button className="col-sm-8 btn-sm btn-submit">Submit</button>
                                     </div>
                                 </form>                   
                             </div>
@@ -64,10 +65,17 @@ class EnquiryForm extends Component {
                     </div>
                 </div>
             </div>
-        )} else {
-            return null;
-        }
+        )
     }
-  }
+
+    render() {
+        return(
+            <div>
+                <div className="enquire-btn" id="enquiry-btn" onClick={this.handleClick}>ENQUIRE NOW</div>
+                {this.state.showModal && this.enquiryFormLayout()}
+            </div>
+        )
+    }
+}
   
   export default EnquiryForm;

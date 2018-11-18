@@ -23,9 +23,9 @@ class CustomerReach extends Component {
     render() {
         return(
             <div id="stories">
-                <div class="container">
-                    <h2 class="home-sub-heading">5000+ happy customers</h2>
-                    <p class="home-sub-text">They’ve loved us and so will you!</p>
+                <div className="container">
+                    <h2 className="home-sub-heading">5000+ happy customers</h2>
+                    <p className="home-sub-text">They’ve loved us and so will you!</p>
                     <div className="carousal">
                         <Slider slides={this.createSlides()}/>
                     </div>

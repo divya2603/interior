@@ -20,7 +20,7 @@ class TopTile extends Component {
 
     render() {
         return (
-            <section id="home-page" class={this.state.clicked ? 'show-section' : 'hide-section'}>
+            <section id="home-page" className={this.state.clicked ? 'show-section' : 'hide-section'}>
                 {/* banner section --> */}
                 <section id="home-banner">
                     <header id="banner">
@@ -47,8 +47,8 @@ class TopTile extends Component {
                 {/* <NavigationMob {...this.props}/>
                 <div id="dummy">&nbsp;</div> */}
                 <CustomerReach />
-                <div class={this.state.clicked ? "hidden" : "downArrow bounce"} onClick={this.handleClick}>
-                    <div class="fa fa-angle-double-down"></div>
+                <div className={this.state.clicked ? "hidden" : "downArrow bounce"} onClick={this.handleClick}>
+                    <div className="fa fa-angle-double-down"></div>
                 </div>
                 <Footer />
             </section>
