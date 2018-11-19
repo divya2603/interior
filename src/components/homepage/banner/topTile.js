@@ -40,7 +40,7 @@ class TopTile extends Component {
                                 <div className="banner-bg-img">
                                     <Slider 
                                         slides={this.slidesArray()} 
-                                        slideDuration ={3000} 
+                                        slideDuration ={5000} 
                                         transitionEffect = {'transform ease-in 2s'}
                                         autoSlide={true}
                                         styles={"90vh"}

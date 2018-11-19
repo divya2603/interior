@@ -485,7 +485,7 @@ ul li{
             z-index: 11;
             color: white;
             margin-top: 6px;
-            font-size: 11px;
+            font-size: 15px;
             letter-spacing: 1px;
             padding-bottom: 40px;
             &:first-child {
@@ -803,3 +803,4 @@ ul li{
 @import './components/carousal/slider';
 @import './components/stories/customerReach';
 @import './components/homepage/banner/topTile';
+@import './components/nav/navigation'
