@@ -22,9 +22,9 @@ class TopTile extends Component {
     slidesArray() {
         return [
             "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
-            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
-            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
-            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+            "https://cdn.livmatrix.com/55592-thickbox/living-room.jpg",
+            "https://cdn.livmatrix.com/55510-thickbox/study-room.jpg",
+            "http://cdn.livspace.com/55502-thickbox/kitchen.jpg",
             "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
         ];
     }
