@@ -5,6 +5,7 @@ import OverlayCard from './overlayCard'
 import Footer from '../../footer/ourWork'
 import EnquiryForm from '../../form/enquiryForm'
 import CustomerReach from '../../stories/customerReach'
+import Slider from '../../carousal/slider'
 
 class TopTile extends Component {
     constructor(props) {
@@ -18,6 +19,16 @@ class TopTile extends Component {
         this.setState({clicked : true})
     }
 
+    slidesArray() {
+        return [
+            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
+        ];
+    }
+
     render() {
         return (
             <section id="home-page" className={this.state.clicked ? 'show-section' : 'hide-section'}>
@@ -27,7 +38,14 @@ class TopTile extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="banner-bg-img">
-                                    <img src="https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png" className="img-responsive banner" alt="banner" srcSet=""/>
+                                    <Slider 
+                                        slides={this.slidesArray()} 
+                                        slideDuration ={3000} 
+                                        transitionEffect = {'transform ease-in 2s'}
+                                        autoSlide={true}
+                                        styles={"90vh"}
+                                    />
+                                    {/* <img src="https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png" className="img-responsive banner" alt="banner" srcSet=""/> */}
                                 </div>
                                 <div id="home-page-header">
                                     <NavigationWeb {...this.props}/>

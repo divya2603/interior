@@ -43,14 +43,38 @@ class Slider extends React.Component {
        return document.querySelector('.slide').clientWidth
     }
   
+    autoSlide() {
+			this.timeoutId && clearInterval(this.timeoutId);
+      this.timeoutId = setInterval(() => {
+        this.goToNextSlide()
+      },this.props.slideDuration)
+		}
+		
+		slideFunction() {
+			if(this.props.autoSlide) {
+				this.autoSlide();
+			} else {
+				return(
+					<div>
+						<LeftArrow
+							goToPrevSlide={this.goToPrevSlide}
+						/>
+						<RightArrow
+							goToNextSlide={this.goToNextSlide}
+						/> 
+					</div>
+				)
+			}
+		}
+
     render() {
       return (
         <div>
-            <div className="slider">
+            <div className="slider" style={{height : this.props.styles}}>
               <div className="slider-wrapper"
                 style={{
                   transform: `translateX(${this.state.translateValue}px)`,
-                  transition: 'transform ease-out 0.45s'
+                  transition: `${this.props.transitionEffect}`
                 }}>
                   {
                     this.state.slides.map((image, i) => (
@@ -58,15 +82,11 @@ class Slider extends React.Component {
                     ))
                   }
               </div>
+              <a className="arrow right" onClick={() => this.slideNext()}></a>
             </div>
 
-            <LeftArrow
-            goToPrevSlide={this.goToPrevSlide}
-            />
-
-            <RightArrow
-            goToNextSlide={this.goToNextSlide}
-            />
+            {/* */}
+            {this.slideFunction()}
         </div>
       );
     }

@@ -12,10 +12,10 @@ class CustomerReach extends Component {
             "https://cdn.livmatrix.com/55576-thickbox/living-room.jpg",
             "https://cdn.livmatrix.com/55516-thickbox/living-room.jpg",
             "https://cdn.livmatrix.com/55510-thickbox/study-room.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg"
+            "http://cdn.livspace.com/55502-thickbox/kitchen.jpg",
+            "http://cdn.livspace.com/55479-thickbox/kitchen.jpg",
+            "http://cdn.livspace.com/55375-thickbox/kitchen.jpg",
+            "http://cdn.livspace.com/55329-thickbox/kitchen.jpg"
         ];
         return slidesHtml;
     }
@@ -27,7 +27,11 @@ class CustomerReach extends Component {
                     <h2 className="home-sub-heading">5000+ happy customers</h2>
                     <p className="home-sub-text">They’ve loved us and so will you!</p>
                     <div className="carousal">
-                        <Slider slides={this.createSlides()}/>
+                        <Slider 
+                            slides={this.createSlides()}
+                            styles={"500px"}
+                            transitionEffect={"transform ease-out 0.45s"}
+                        />
                     </div>
                 </div>
             </div>

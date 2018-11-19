@@ -816,7 +816,6 @@ textarea {
 .slider {
   position: relative;
   margin: 0 auto;
-  height: 500px;
   overflow: hidden;
   white-space: nowrap; }
 
