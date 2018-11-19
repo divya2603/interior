@@ -8,10 +8,10 @@ class CustomerReach extends Component {
 
     createSlides(){
         let slidesHtml = [
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg",
-            "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/desert.jpg",
+            "https://cdn.livmatrix.com/55592-thickbox/living-room.jpg",
+            "https://cdn.livmatrix.com/55576-thickbox/living-room.jpg",
+            "https://cdn.livmatrix.com/55516-thickbox/living-room.jpg",
+            "https://cdn.livmatrix.com/55510-thickbox/study-room.jpg",
             "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
             "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
             "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",

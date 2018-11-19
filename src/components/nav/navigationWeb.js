@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+const Image = require('./logo.png');
 
 //navigation strip topmost
 class NavigationMob extends Component {
@@ -70,7 +71,7 @@ class NavigationMob extends Component {
                         {/* Livspace logo --> */}
                         <li className="pull-left text-left home-main-nav-link">
                             <a href="/">
-                                <img src="https://cdn.livmatrix.com/ls_image/663887/logo3.png" alt="Livspace.com logo" height="28"/>
+                                <img src={Image} alt="logo"/>
                             </a>
                         </li>
                         {/* Looks dropdown --> */}
