@@ -171,6 +171,10 @@ textarea {
     background: rgba(255,255,255,.3);
     border: 1px solid #757575;
     color: #757575; 
+    @media (max-width: $bp-mob) {
+        right: 5px; 
+        bottom: 5px;
+    }
     &:hover {
       color: #fff;
       background-color: rgba(0,0,0,0.6);

@@ -1,0 +1,17 @@
+.btn{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "avenirnext-medium","helvetica neue",helvetica,arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.white-btn{
+    @extend .btn;
+    padding: 8px 16px;
+    color: #323D4B;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 2px;
+}

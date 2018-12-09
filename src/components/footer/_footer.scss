@@ -1,0 +1,47 @@
+.footer {
+    @extend .clearfix;
+    padding: 20px;   
+   .footer-links-web {
+       width: 75%;
+       float: left;
+       .menu-list {
+           // TODO: remove after reset.css
+           padding: 0;
+           margin: 0;
+           .list-item {
+               padding: 0 10px;
+               text-transform: uppercase;
+           }
+       }
+   }
+   .social-login {
+       width: 25%;
+       float: right;
+       @extend .clearfix;
+       .footer-support-icons {
+           position: relative;
+           width: 100%;
+           @extend .clearfix;
+           .social-media {
+               min-height: 1px;
+               width: 100%;
+               text-align: right;
+               .list-inline {
+                   max-width: 90%;
+                   margin: 0 auto;
+                   @media (max-width: $bp-mob) {
+                        margin-bottom: 50px;
+                    }
+                   li {
+                       padding: 0 10px;
+                       a {
+                           color: #666;
+                           font-size: 14px;
+                       }
+                   }
+               }
+           }
+       }
+       
+   }
+}

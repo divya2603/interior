@@ -9,6 +9,9 @@
             overflow: hidden;
             width: 88%;
             margin: 0 auto;
+            @media (max-width: $bp-mob) {
+                width: 100%;
+            }
             .arrow {
                 width: 8%;
                 background-image: none;

@@ -23,10 +23,59 @@
         }
     }
 }
+.banner-content {
+  position: absolute;
+  z-index: 2;
+  top: 25%;
+  width: 100%;
+  color:#fff;
+  @media (max-width: $bp-mob) {
+    top: 15%;
+  }
+  .card {
+      float: left;
+      width: 50%;
+      @media (max-width: $bp-mob) {
+        float: none;
+        top: 18%;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .card-wrapper {
+          margin: 80px 30px;
+          background: rgba(0,0,0,0.3);
+          padding: 40px;
+          @media (max-width: $bp-mob) {
+            margin: 30px 15px;
+            padding: 20px;
+          }
+      }
+  }
+  h1 {
+      font-size: 44px;
+      line-height: 50px;
+      font-weight: 500;
+      white-space: nowrap;
+      @media (max-width: $bp-mob) {
+        font-size: 38px;
+        line-height: 1.2;
+      }
+  }
+  p {
+      font-size: 18px;
+      line-height: 25px;
+      @media (max-width: $bp-mob) {
+        font-size: 14px;
+        line-height: 18px;
+      }
+  }
+}
+
 .bounce {
 	-moz-animation: bounce 1s infinite;
 	-webkit-animation: bounce 3s infinite;
-	animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+  @media (max-width: $bp-mob) {}
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {

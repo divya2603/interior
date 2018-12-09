@@ -6,11 +6,13 @@ import Footer from '../../footer/ourWork'
 import EnquiryForm from '../../form/enquiryForm'
 import CustomerReach from '../../stories/customerReach'
 import Slider from '../../carousal/slider'
+const Image = require('./logo.png');
 
 class TopTile extends Component {
     constructor(props) {
         super();
-        this.state = {clicked : false}
+        const setOnInnerWidth = window.innerWidth <= 768 ? true : false;
+        this.state = {clicked : setOnInnerWidth}
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -30,6 +32,7 @@ class TopTile extends Component {
     }
 
     render() {
+        //const setStylesOnInnerWidth = window.innerWidth <= 768 ? "100vh" : "90vh";
         return (
             <section id="home-page" className={this.state.clicked ? 'show-section' : 'hide-section'}>
                 {/* banner section --> */}
@@ -48,7 +51,8 @@ class TopTile extends Component {
                                     {/* <img src="https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png" className="img-responsive banner" alt="banner" srcSet=""/> */}
                                 </div>
                                 <div id="home-page-header">
-                                    <NavigationWeb {...this.props}/>
+                                    <NavigationWeb logo={Image} {...this.props}/>
+                                    <NavigationMob logo={Image} {...this.props} />
                                 </div>
                                 {/* banner content */}
                                 <div className="banner-content">

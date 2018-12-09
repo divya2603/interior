@@ -1,0 +1,21 @@
+// @mixin bp($point) {
+  
+//     $bp-mob: "(max-width: 768px)";
+//     $bp-tab: "(min-width: 768px) and (max-width: 1023px)";
+//     $bp-desktop: "(max-width: 1600px)";
+  
+//     @if $point == mob {
+//       @media #{$bp-mob} { @content; }
+//     }
+//     @else if $point == tab {
+//       @media #{$bp-tab} { @content; }
+//     }
+//     @else if $point == baby-desktop {
+//       @media #{$bp-desktop}  { @content; }
+//     }
+
+//   }
+
+    $bp-mob: 768px;
+    $bp-tab: 1023px;
+    $bp-desktop: 1600px;

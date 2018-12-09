@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class NavigationMob extends Component {
   render() {
     return (
-        <nav id="navbar" className="navbar hidden" >
+        <nav id="navbar" className="navbar-mob" >
             <div className="container">
                 <div className="row">
                     <div className="header-section clearfix">
@@ -12,7 +12,7 @@ class NavigationMob extends Component {
                         <div className="logo-section">
                             <div className="logo">
                                 <a href="/">
-                                    <img className="img-responsive pull-left" src="https://imgs.livmatrix.com/ls_image/823637/Livspace-logo-black.png" alt=""/>
+                                    <img className="img-responsive pull-left" src={this.props.logo} alt="logo"/>
                                 </a>
                             </div>
                         </div>
