@@ -1,0 +1,82 @@
+#home-page-header.page-header {
+    @extend .clearfix;
+    background: none;
+    padding-bottom: 15px;
+    z-index: 7;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(51,51,51,0.3);
+    -moz-box-shadow: 0 1px 4px 0 rgba(51,51,51,0.3);
+    box-shadow: 0 1px 4px 0 rgba(51,51,51,0.3); 
+    .list-inline {
+        .home-main-nav-link {
+            color: #666;
+            cursor: pointer;
+            padding-top: 0;
+            &:hover {
+                color: #f75861;
+                border-bottom: 3px solid #f75861;
+            }
+            &:first-child {
+                border-bottom: none;
+            }
+            .link-identifier {
+                margin-top: 0;
+            }
+        }
+    }
+}
+.rooms-container {
+    margin: 0 auto;
+    @media (min-width: $bp-mob) {
+        width: 1170px;
+    }
+    h1 {
+        color: #666;
+        text-shadow: none;
+    }
+    .row {
+        margin-top: -15px;
+        .col-md-6 {
+            padding: 15px;
+            .room-tile {
+                position: relative;
+                a {
+                    display: inline-block;
+                    .fa-heart-o {
+                        font-size: 26px;
+                        position: relative;
+                        color: #f75861;
+                        top: 40px;
+                        left: 93%;
+                        visibility: hidden;
+                        &:hover {
+                            color: rgba(180, 13, 13, 0.922);
+                        }
+                    }
+                    &:hover .fa-heart-o {
+                        visibility: visible;
+                    }
+                }
+                .sticker {
+                    position: absolute;
+                    text-align: right;
+                    left: 85%;
+                    bottom: 30px;
+                    img {
+                        border: 2px solid #fff;
+                        //height: 100%;
+                        width: 65px;
+                        height: 65px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                    }
+                }
+                .product-info {
+                    min-height: 60px;
+                    padding: 10px;
+                    border-bottom: 1px solid #cccccc;
+                }
+            }
+        }
+    }
+}

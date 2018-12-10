@@ -107,10 +107,33 @@ ul li{
     padding: 70px 0 80px;
     z-index: 4;
     position: relative;
+    @media (max-width: $bp-mob) {
+
+    }
     h2{
         color: #333;
         font-size: 35px;
         line-height: 53px;
         margin: 0 0 20px 0;
+        @media (max-width: $bp-mob) {
+        
+        }
     }
+}
+
+// bootstrap classes
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+
+.col-sm-12 {
+    @media (max-width: $bp-mob) {
+        width: 100%;
+    }
+} 
+.col-md-6 {
+    width: 50%;
+}
+.img-circle {
+    border-radius: 50%;
 }

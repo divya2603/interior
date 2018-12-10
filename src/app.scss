@@ -7,11 +7,15 @@
 
 
 body {
-    overflow-x: hidden !important;
+    @media (max-width: $bp-mob) {
+        overflow-x: hidden !important;
+    }
 }
 .container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+    @media (max-width: $bp-mob) {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
 }
 
 
@@ -48,10 +52,6 @@ body {
     z-index: 0;
 }
 
-
-.header-section{
-    padding: 10px 0;
-}
 
 .dummy-div{
     width: 100%;
@@ -235,4 +235,5 @@ body {
 @import './components/carousal/slider';
 @import './components/stories/customerReach';
 @import './components/homepage/banner/topTile';
-@import './components/nav/navigation'
+@import './components/nav/navigation';
+@import './components/pages/rooms/scss/rooms'
