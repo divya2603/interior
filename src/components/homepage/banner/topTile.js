@@ -6,6 +6,9 @@ import Footer from '../../footer/ourWork'
 import EnquiryForm from '../../form/enquiryForm'
 import CustomerReach from '../../stories/customerReach'
 import Slider from '../../carousal/slider'
+import DesignCenters from '../../services/designCenters'
+import Design from '../../services/design'
+import Services from '../../services/services'
 const Image = require('./logo.png');
 
 class TopTile extends Component {
@@ -69,6 +72,13 @@ class TopTile extends Component {
                 {/* <NavigationMob {...this.props}/>
                 <div id="dummy">&nbsp;</div> */}
                 <CustomerReach />
+                <Design/>
+                <Services />
+                <DesignCenters heading={"Visit our Design Center"} 
+                    subtext={"Seeing is believing.Touch, feel and get the Livspace experience in your city."}
+                    btnText={"Locate us"}
+                    imageUrl={"http://imgs.livmatrix.com/ls_image/647933/design-center.png"}
+                />
                 <div className={this.state.clicked ? "hidden" : "downArrow bounce"} onClick={this.handleClick}>
                     <div className="fa fa-angle-double-down"></div>
                 </div>

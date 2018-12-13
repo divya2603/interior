@@ -193,7 +193,7 @@ body {
                     color: #666;
                     font-size: 18px;
                     line-height: 30px;
-                    margin: 0 0 5px 0;
+                    margin: 0 15px 5px 0;
                 }
                 .home-sub-link{
                     margin: 45px 0 0 0;
@@ -236,4 +236,5 @@ body {
 @import './components/stories/customerReach';
 @import './components/homepage/banner/topTile';
 @import './components/nav/navigation';
-@import './components/pages/rooms/scss/rooms'
+@import './components/pages/rooms/scss/rooms';
+@import './components/pages/detail/scss/detail'

@@ -15,3 +15,13 @@
     background-color: white;
     border-radius: 2px;
 }
+.pink-btn {
+    @extend .btn;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #fff;
+    background-color: #f75861;
+}

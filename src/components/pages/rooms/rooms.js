@@ -22,7 +22,7 @@ class Rooms extends Component {
     render() {
         return (
             <div className="rooms">
-                <div id="home-page-header" class="page-header">
+                <div id="home-page-header" className="page-header">
                     <NavigationWeb logo={Image} {...this.props}/>
                     <NavigationMob logo={Image} {...this.props} />
                 </div>
