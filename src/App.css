@@ -65,7 +65,7 @@ ul li {
 .pull-left {
   float: left; }
 
-.clearfix:before, .logo-container:before, .form-group:before, #home-page-header.page-header:before, .clearfix:after, .logo-container:after, .form-group:after, #home-page-header.page-header:after {
+.clearfix:before, .logo-container:before, .form-group:before, #home-page-header.page-header:before, .detail-container:before, .clearfix:after, .logo-container:after, .form-group:after, #home-page-header.page-header:after, .detail-container:after {
   content: " ";
   display: table;
   clear: both; }

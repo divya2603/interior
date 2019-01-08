@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 //navigation strip topmost
 class NavigationMob extends Component {
-
     looksDropdown() {
         return(
             <div className="navbar-link-drop-down clearfix">
                 <div className="five-column-row clearfix" id="all-looks-home">
                     <h4 className="text-left">All Looks</h4>
-                    <a href="/living-rooms">
+                    <Link to="/living-rooms">
                         <div className="column">
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/33243-thickbox/morning-glory.jpg" alt="" className="lazy" />
@@ -17,8 +17,8 @@ class NavigationMob extends Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/bedrooms">
+                    </Link>
+                    <Link to="/bedrooms">
                         <div className="column">
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/33988-thickbox/ornate-splendour.jpg" alt="" className="lazy" />
@@ -27,8 +27,8 @@ class NavigationMob extends Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/dining-rooms">
+                    </Link>
+                    <Link to="/dining-rooms">
                         <div className="column">
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/50156-thickbox/20160201srikanthdr1c1v2ar.jpg" alt="" className="lazy" />
@@ -37,8 +37,8 @@ class NavigationMob extends Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/kitchen-designs">
+                    </Link>
+                    <Link to="/kitchen">
                         <div className="column">
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/43435-thickbox/clockwork-orange-u-shape-kitchen.jpg" alt="" className="lazy" />
@@ -47,8 +47,8 @@ class NavigationMob extends Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="/wardrobe-designs">
+                    </Link>
+                    <Link to="/wardrobe">
                         <div className="column">
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/43464-thickbox/scandinavian-wardrobes-011.jpg" alt=""  className="lazy" />
@@ -57,7 +57,7 @@ class NavigationMob extends Component {
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         )
@@ -70,7 +70,7 @@ class NavigationMob extends Component {
                         {/* Livspace logo --> */}
                         <li className="pull-left text-left home-main-nav-link">
                             <a className="logo-container" href="/">
-                                <img src={this.props.logo} alt="logo"/> <span className="logo">Neoteric Creations</span>
+                                <img src={this.props.logo} alt="logo" /> <span className="logo">Neoteric Creations</span>
                             </a>
                         </li>
                         {/* Looks dropdown --> */}
@@ -82,7 +82,7 @@ class NavigationMob extends Component {
 
                         {/* Construction dropdown --> */}
                         <li className="home-main-nav-link construction">
-                            <a href="/custom-modular-kitchens" className="text-uppercase">Construction</a>
+                            <a href="/construction" className="text-uppercase">Construction</a>
                             <div className="link-identifier"></div>
                             {/*  dropdown starts here --> */}
                             <div className="navbar-link-drop-down clearfix construction-dropdown">
@@ -91,13 +91,13 @@ class NavigationMob extends Component {
                                         <div className="alt-drop-down-links">
                                             <ul className="list-unstyled dropDownLinksList text-left">
                                                 <li className="">
-                                                    <a href="/custom-modular-kitchens" className="firstLevelCategory" styles="font-size: 14px;text-transform: uppercase;color: #333;letter-spacing: 2px;font-weight: bold;">kitchen</a>
+                                                    <a href="/construction" className="firstLevelCategory" styles="font-size: 14px;text-transform: uppercase;color: #333;letter-spacing: 2px;font-weight: bold;">kitchen</a>
                                                     <ul className="dropDownLinksList-sub list-unstyled">
-                                                        <li className=""><a href="/kitchen-designs" className="secondLevelCategory">Designs</a></li>
-                                                        <li className=""><a href="/know-your-kitchen" className="secondLevelCategory">Know your livspace kitchen</a></li>
-                                                        <li className=""><a href="/quality-looks" className="secondLevelCategory">Kitchen Quality</a></li>
-                                                        <li className=""><a href="/kitchen-how-it-works" className="secondLevelCategory">How it works</a></li>
-                                                        <li className=""><a href="/kitchen-price-calculator" className="secondLevelCategory">Price estimator</a></li>
+                                                        <li className=""><a href="/kitchen" className="secondLevelCategory"> Kitchen Designs</a></li>
+                                                        <li className=""><a href="/wardrobe" className="secondLevelCategory">Wardrobe Designs</a></li>
+                                                        <li className=""><a href="/bedrooms" className="secondLevelCategory">Bedroom Quality</a></li>
+                                                        <li className=""><a href="/dining-rooms" className="secondLevelCategory">Dining Room</a></li>
+                                                        {/* <li className=""><a href="/kitchen-price-calculator" className="secondLevelCategory">Price estimator</a></li> */}
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -147,7 +147,7 @@ class NavigationMob extends Component {
 
                         {/* Blogs dropdown --> */}
                         <li className="home-main-nav-link blogs">
-                            <a href="/magazine" className="text-uppercase">BLOGS</a>
+                            <a href="/blogs" className="text-uppercase">BLOGS</a>
                             <div className="link-identifier"></div>
                             <div className="navbar-link-drop-down clearfix blogs-dropdown">
                                 <div className="flex-box">
@@ -155,7 +155,7 @@ class NavigationMob extends Component {
                                         <div className="alt-drop-down-links">
                                             <ul className="list-unstyled dropDownLinksList text-left">
                                                 <li className="">
-                                                    <a href="/magazine" className="firstLevelCategory" styles="font-size: 14px;text-transform: uppercase;color: #333;letter-spacing: 2px;font-weight: bold;">Magazine</a>
+                                                    <a href="/blogs" className="firstLevelCategory" styles="font-size: 14px;text-transform: uppercase;color: #333;letter-spacing: 2px;font-weight: bold;">Magazine</a>
                                                     <ul className="dropDownLinksList-sub list-unstyled">
                                                         <li className=""><a href="/magazine/category/design" className="secondLevelCategory">Designs</a></li>
                                                         <li className=""><a href="/magazine/category/homekeeping" className="secondLevelCategory">Home keeping</a></li>
@@ -214,15 +214,15 @@ class NavigationMob extends Component {
                         
                         {/* About us */}
                         <li className="home-main-nav-link ">
-                            <a href="/apartments" className="text-uppercase">About Us</a>
+                            <Link to="/about-us" className="text-uppercase">About Us</Link>
                         </li>
                         {/* Contact us --> */}
                         <li className="home-main-nav-link ">
-                            <a href="/hire-a-designer" className="text-uppercase">Contact us</a>
+                            <Link to="/contact-us" className="text-uppercase">Contact us</Link>
                         </li>
                         {/* Sign in  --> */}
                         <li className="home-main-nav-link ">
-                            <a href="/how-it-works" className="text-uppercase">Sign in</a>
+                            <Link to="/sign-in" className="text-uppercase">Sign in</Link>
                         </li>
                     </ul>
                 </div>

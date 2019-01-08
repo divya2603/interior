@@ -1,5 +1,5 @@
 .detail-container {
-    
+    @extend .clearfix;
 }
 .left-container, .right-container {
     float: left;
@@ -24,7 +24,4 @@
     .desc {
         margin: 40px 0 30px 0;
     }
-    // .wrapper {
-    //     position: relative;
-    // }
 }

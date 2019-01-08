@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import CardList from './js/cardList';
-class Rooms extends Component {
+import CardList from '../rooms/js/cardList';
+
+class Wardrobe extends Component {
     constructor() {
         super();
-        this.products=this.products=[
+        this.products=[
             {name: "Agnes Straight Modular Kitchen (Agnes Straight Modular Kitchen)" , imageSrc: "https://cdn.livspace.com/55502-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
             {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "blushing-blorals"},
             {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "Under The Horizon"},
@@ -18,9 +19,9 @@ class Rooms extends Component {
     }
     render() {
         return (
-            <CardList products={this.products} heading={"Rooms Suggested for you"} href="/rooms/"/>
+            <CardList products={this.products} heading={"Wardrobe Suggested for you"} href="/wardrobe/"/>
         );
     }
 }
 
-export default Rooms;
+export default Wardrobe;
