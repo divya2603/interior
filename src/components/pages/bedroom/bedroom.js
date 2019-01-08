@@ -19,7 +19,7 @@ class Bedroom extends Component {
     }
     render() {
         return (
-            <CardList products={this.products} heading={"Bedrooms Suggested for you"} href="/bedroom/"/>
+            <CardList products={this.products} heading={"Bedrooms Suggested for you"} href="/bedrooms/"/>
         );
     }
 }
