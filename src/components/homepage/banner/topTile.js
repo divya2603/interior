@@ -17,6 +17,15 @@ class TopTile extends Component {
         const setOnInnerWidth = window.innerWidth <= 768 ? true : false;
         this.state = {clicked : setOnInnerWidth}
         this.handleClick = this.handleClick.bind(this);
+        this.slidesArray = 
+            [
+                "/images/interior/antique-art-books-1099816.jpg",
+                "/images/interior/apartment-architecture-ceiling-261045.jpg",
+                "/images/interior/architecture-bathroom-contemporary-280209.jpg",
+                "/images/interior/contemporary-decoration-design-1090638.jpg",
+                "/images/interior/background-creativity-decoration-587441.jpg",
+            ]
+        
     }
 
     handleClick(e) {
@@ -26,16 +35,6 @@ class TopTile extends Component {
 
     componentWillUnmount() {
         this.isCancelled = true;
-    }
-
-    slidesArray() {
-        return [
-            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
-            "https://cdn.livmatrix.com/55592-thickbox/living-room.jpg",
-            "https://cdn.livmatrix.com/55510-thickbox/study-room.jpg",
-            "http://cdn.livspace.com/55502-thickbox/kitchen.jpg",
-            "https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png",
-        ];
     }
 
     render() {
@@ -50,7 +49,7 @@ class TopTile extends Component {
                                 <div className="row">
                                     <div className="banner-bg-img">
                                         <Slider 
-                                            slides={this.slidesArray()} 
+                                            slides={this.slidesArray} 
                                             slideDuration ={5000} 
                                             transitionEffect = {'transform ease-in 2s'}
                                             autoSlide={true}

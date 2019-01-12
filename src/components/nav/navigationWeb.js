@@ -70,7 +70,7 @@ class NavigationMob extends Component {
                         {/* Livspace logo --> */}
                         <li className="pull-left text-left home-main-nav-link">
                             <a className="logo-container" href="/">
-                                <img src={this.props.logo} alt="logo" /> <span className="logo">Neoteric Creations</span>
+                                <img src={this.props.logo} alt="logo" />
                             </a>
                         </li>
                         {/* Looks dropdown --> */}
