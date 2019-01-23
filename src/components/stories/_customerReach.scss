@@ -1,0 +1,46 @@
+#stories {
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 70px 0 80px;
+    .carousal {
+        position: relative;
+        .slider {
+            position: relative;
+            overflow: hidden;
+            width: 88%;
+            margin: 0 auto;
+            @media (max-width: $bp-mob) {
+                width: 100%;
+            }
+            .arrow {
+                width: 8%;
+                background-image: none;
+                .left {
+                    
+                }
+            }
+        }
+    }
+    .home-sub-heading {
+        color: #333;
+        font-size: 35px;
+        line-height: 35px;
+        margin: 0 0 10px 0;
+        text-align: center;
+        @media (max-width: 1920px) {
+            font-size: 35px;
+            line-height: 53px;
+        }
+    }
+    .home-sub-text {
+        color: #666;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 20px 0;
+        text-align: center;
+        @media (max-width: 1920px) {
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}
