@@ -13,6 +13,7 @@ import Construction from './components/pages/construction/construction'
 import Blogs from './components/pages/blogs/blogs'
 import Footer from './components/footer/ourWork'
 import diningRooms from './components/pages/diningRooms/diningRooms';
+import ConsultDesigner from './components/pages/consultDesigner/consultDesigner';
 
 class App extends Component {
   render() {
@@ -38,7 +39,7 @@ class App extends Component {
             <Route path='/construction/*' exact strict component={Detail}/>
             <Route path='/blogs' exact strict component={Blogs}/>
             <Route path='/blogs/*' exact strict component={Detail}/>
-
+            <Route path='/consult' exact strict component={ConsultDesigner}/>
           </div>
         </Router>
         <Footer />
