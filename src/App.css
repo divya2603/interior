@@ -1412,3 +1412,115 @@ textarea {
     text-shadow: none; }
   .right-container .desc {
     margin: 40px 0 30px 0; }
+
+.consult-container {
+  background-image: url(https://imgs.livmatrix.com/ls_image/633107/design-consultation.jpg);
+  height: 670px;
+  background-size: cover;
+  position: relative;
+  padding: 0 15px 0 15px; }
+  .consult-container .header-wrap {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 65%;
+    text-align: left;
+    margin: 4% auto 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #333;
+    padding: 40px; }
+    @media (max-width: 768px) {
+      .consult-container .header-wrap {
+        width: 100%; } }
+    .consult-container .header-wrap h5 {
+      font-size: 36px;
+      letter-spacing: 1px;
+      margin: 10px 0 10px 0;
+      padding: 0 0 0 120px; }
+    .consult-container .header-wrap p {
+      font-size: 16px;
+      margin: 0 0 10px 0;
+      padding: 0 0 0 125px; }
+  .consult-container .header-form {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 32%; }
+    @media (max-width: 768px) {
+      .consult-container .header-form {
+        width: 100%; } }
+    .consult-container .header-form .content-form {
+      padding-left: 20px; }
+      .consult-container .header-form .content-form .form-body {
+        max-width: 340px;
+        padding: 30px 20px 15px;
+        margin: 40px auto 0 auto !important;
+        border-bottom: 1px solid #CCCCCC;
+        background-color: #fff; }
+        .consult-container .header-form .content-form .form-body .form-heading {
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          color: #333;
+          font-size: 14px;
+          padding-bottom: 10px;
+          border-bottom: 3px solid #F74861;
+          margin: 15px auto 20px; }
+        .consult-container .header-form .content-form .form-body fieldset {
+          padding: 0;
+          margin: 0;
+          border: 0;
+          min-width: 0; }
+          .consult-container .header-form .content-form .form-body fieldset .form-element {
+            line-height: 50px;
+            height: 50px;
+            background: #fff;
+            position: relative;
+            margin-bottom: -1px;
+            border: 1px solid #E6E6E6;
+            -webkit-transition: .3s border,.3s height;
+            -o-transition: .3s border,.3s height;
+            transition: .3s border,.3s height; }
+            .consult-container .header-form .content-form .form-body fieldset .form-element .form-placeholder {
+              line-height: 60px;
+              left: 20px;
+              pointer-events: none;
+              color: #666;
+              font-size: 12px;
+              text-transform: uppercase;
+              position: absolute;
+              top: 0;
+              max-width: 100%;
+              z-index: 1;
+              -webkit-transition: .3s;
+              -o-transition: .3s;
+              transition: .3s;
+              -webkit-transform-origin: 0 0;
+              -moz-transform-origin: 0 0;
+              -ms-transform-origin: 0 0;
+              -o-transform-origin: 0 0;
+              transform-origin: 0 0; }
+            .consult-container .header-form .content-form .form-body fieldset .form-element .form-control.dropdown {
+              border: none;
+              border-radius: 0;
+              height: 50px; }
+            .consult-container .header-form .content-form .form-body fieldset .form-element .form-control.description {
+              border: none;
+              border-bottom: 1px solid #ccc;
+              height: 50px;
+              border-radius: 0; }
+            .consult-container .header-form .content-form .form-body fieldset .form-element input {
+              border: none; }
+            .consult-container .header-form .content-form .form-body fieldset .form-element .active-focus {
+              border: 1px solid #666;
+              z-index: 999; }
+        .consult-container .header-form .content-form .form-body .submit-btn {
+          width: 100%;
+          border: none;
+          margin-top: 20px; }

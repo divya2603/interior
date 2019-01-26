@@ -21,7 +21,7 @@ class Detail extends Component {
                     <div className="detail-content right-container">
                         <h1 className="product-name">Living Space</h1>
                         <div className="desc">Rooms Suggested for youRooms Suggested for youRooms Suggested for youRooms Suggested for you</div>
-                        <a className="btn pink-btn">Book a designer</a>
+                        <a className="btn pink-btn" href="/consult">Book a designer</a>
                     </div>
                 </div>
             </div>
