@@ -1,6 +1,6 @@
 .consult-container {
-    background-image: url(https://imgs.livmatrix.com/ls_image/633107/design-consultation.jpg);
-    height: 670px;
+    background-image: url("/images/mix/apartment-blinds-cabinets-349749.jpg");
+    height: 750px;
     background-size: cover;
     position: relative;
     padding: 0 15px 0 15px;
@@ -39,7 +39,7 @@
         padding-left: 15px;
         padding-right: 15px;
         float: left;
-        width: 32%;
+        width: 35%;
         @media (max-width: $bp-mob) {
             width: 100%;
         }
@@ -47,8 +47,8 @@
             padding-left: 20px;
             .form-body {
                 max-width: 340px;
-                padding: 30px 20px 15px;
-                margin: 40px auto 0 auto !important;
+                padding: 15px 20px 15px;
+                margin: 35px auto 0 auto;
                 border-bottom: 1px solid #CCCCCC;
                 background-color: #fff;
                 .form-heading {

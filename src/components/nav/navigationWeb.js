@@ -43,7 +43,7 @@ class NavigationMob extends Component {
                             <div className="thumbnail ls__thumbnail">
                                 <img src="https://cdn.livmatrix.com/43435-thickbox/clockwork-orange-u-shape-kitchen.jpg" alt="" className="lazy" />
                                 <div className="caption text-center">
-                                    <h5>Modular kitchen</h5>
+                                    <h5> Kitchen</h5>
                                 </div>
                             </div>
                         </div>

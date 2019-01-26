@@ -5,16 +5,16 @@ class Bedroom extends Component {
     constructor() {
         super();
         this.products=[
-            {name: "Agnes Straight Modular Kitchen (Agnes Straight Modular Kitchen)" , imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "blushing-blorals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "Under The Horizon"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "Scarlet Parallel Modular Kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "Blushing Florals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "/images/construction/apartment-bed-bedroom-271624.jpg", linkTo: "scarlet-parallel-modular-kitchen"},
+            {name: "Bed Bedroom" , imageSrc: "/images/bedroom/apartment-bed-bedroom-271624.jpg", linkTo: "apartment-bed-bedroom"},
+            {name: "Apartment Bed Bedroom ", imageSrc: "/images/bedroom/apartment-bed-bedroom-439227.jpg", linkTo: "apartment-bed-bedroom2"},
+            {name: "Architecture Bed Bedroom", imageSrc: "/images/bedroom/architecture-bed-bedroom-237371.jpg", linkTo: "architecture-bed-bedroom"},
+            {name: "Architecture Bed Bedroom", imageSrc: "/images/bedroom/architecture-bed-bedroom-1454806.jpg", linkTo: "architecture-bed-bedroom2"},
+            {name: "Balcony Bed Bedroom ", imageSrc: "/images/bedroom/balcony-bed-bedroom-210604.jpg", linkTo: "balcony-bed-bedroom"},
+            {name: "Bed Bedroom Blanket", imageSrc: "/images/bedroom/bed-bedroom-blanket-1457845.jpg", linkTo: "bed-bedroom-blanket"},
+            {name: "Bedroom Carpet", imageSrc: "/images/bedroom/bed-bedroom-carpet-90317.jpg", linkTo: "bed-bedroom-carpet2"},
+            {name: "Bed Bedroom Ceiling ", imageSrc: "/images/bedroom/bed-bedroom-ceiling-262048.jpg", linkTo: "bed-bedroom-ceiling"},
+            {name: "Bed Bedroom Chair", imageSrc: "/images/bedroom/bed-bedroom-chair-707581.jpg", linkTo: "bed-bedroom-chair"},
+            {name: "Bed Bedroom Contemporary", imageSrc: "/images/bedroom/bed-bedroom-contemporary-1267438.jpg", linkTo: "bed-bedroom-contemporary"},
             ]
     }
     render() {

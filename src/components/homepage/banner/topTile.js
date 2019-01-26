@@ -86,7 +86,6 @@ class TopTile extends Component {
                     <div className={this.state.clicked ? "hidden" : "downArrow bounce"} onClick={this.handleClick}>
                         <div className="fa fa-angle-double-down"></div>
                     </div>
-                    <Footer />
                 </section>
             );   
         }

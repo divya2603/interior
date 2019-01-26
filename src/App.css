@@ -399,8 +399,6 @@ ul li {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
         display: none; }
-      #home-page-header .list-inline .home-main-nav-link .constructor .link-identifier {
-        display: none !important; }
       #home-page-header .list-inline .home-main-nav-link .five-column-row {
         margin: 0 -15px; }
         #home-page-header .list-inline .home-main-nav-link .five-column-row .column {
@@ -513,6 +511,9 @@ ul li {
       -webkit-box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.3);
       -moz-box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.3);
       box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.3); } }
+
+#home-page-header .list-inline .home-main-nav-link .link-identifier {
+  display: none !important; }
 
 @media (max-width: 768px) {
   body {
@@ -1217,8 +1218,6 @@ textarea {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
         display: none; }
-      #home-page-header .list-inline .home-main-nav-link .constructor .link-identifier {
-        display: none !important; }
       #home-page-header .list-inline .home-main-nav-link .five-column-row {
         margin: 0 -15px; }
         #home-page-header .list-inline .home-main-nav-link .five-column-row .column {
@@ -1332,6 +1331,9 @@ textarea {
       -moz-box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.3);
       box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.3); } }
 
+#home-page-header .list-inline .home-main-nav-link .link-identifier {
+  display: none !important; }
+
 #home-page-header.page-header {
   background: none;
   padding-bottom: 15px;
@@ -1420,8 +1422,8 @@ textarea {
     margin: 40px 0 30px 0; }
 
 .consult-container {
-  background-image: url(https://imgs.livmatrix.com/ls_image/633107/design-consultation.jpg);
-  height: 670px;
+  background-image: url("/images/mix/apartment-blinds-cabinets-349749.jpg");
+  height: 750px;
   background-size: cover;
   position: relative;
   padding: 0 15px 0 15px; }
@@ -1457,7 +1459,7 @@ textarea {
     padding-left: 15px;
     padding-right: 15px;
     float: left;
-    width: 32%; }
+    width: 35%; }
     @media (max-width: 768px) {
       .consult-container .header-form {
         width: 100%; } }
@@ -1465,8 +1467,8 @@ textarea {
       padding-left: 20px; }
       .consult-container .header-form .content-form .form-body {
         max-width: 340px;
-        padding: 30px 20px 15px;
-        margin: 40px auto 0 auto !important;
+        padding: 15px 20px 15px;
+        margin: 35px auto 0 auto;
         border-bottom: 1px solid #CCCCCC;
         background-color: #fff; }
         .consult-container .header-form .content-form .form-body .form-heading {

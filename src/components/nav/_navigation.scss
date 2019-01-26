@@ -124,7 +124,7 @@
     padding-right: 5px;
 }
 
-#home-page-header{
+#home-page-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -182,6 +182,11 @@
                     left: -100px;
                 }
             }
+            // &.constructor {
+            //    .home-main-nav-link .link-identifier {
+            //        display: none !important;
+            //    }
+            // }
             
             .navbar-link-drop-down {
                 display:none;
@@ -209,11 +214,6 @@
                 -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
                 display: none;
-            }
-            .constructor {
-                .link-identifier {
-                    display: none !important;
-                }
             }
             .five-column-row {
                 margin: 0 -15px;
@@ -361,4 +361,8 @@
         -moz-box-shadow: 0 1px 4px 0 rgba(51,51,51,0.3);
         box-shadow: 0 1px 4px 0 rgba(51,51,51,0.3);
     }
+}
+
+#home-page-header .list-inline .home-main-nav-link .link-identifier {
+    display: none !important;
 }

@@ -5,16 +5,14 @@ class Kitchen extends Component {
     constructor() {
         super();
         this.products=[
-            {name: "Agnes Straight Modular Kitchen (Agnes Straight Modular Kitchen)" , imageSrc: "https://cdn.livspace.com/55502-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "blushing-blorals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "Under The Horizon"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "Scarlet Parallel Modular Kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "Blushing Florals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "scarlet-parallel-modular-kitchen"},
+            {name: "Brooke Lark Unsplash" , imageSrc: "/images/kitchen/brooke-lark-191659-unsplash.jpg", linkTo: "brooke-lark-unsplash"},
+            {name: "Ellen Auer Unsplash ", imageSrc: "/images/kitchen/ellen-auer-708106-unsplash.jpg", linkTo: "ellen-auer-unsplash"},
+            {name: "Jason Briscoe Unsplash", imageSrc: "/images/kitchen/jason-briscoe-332507-unsplash.jpg", linkTo: "jason-briscoe-unsplash"},
+            {name: "Jason Leung Unsplash", imageSrc: "/images/kitchen/jason-leung-490668-unsplash.jpg", linkTo: "jason-leung-unsplash"},
+            {name: "Smith Unsplash ", imageSrc: "/images/kitchen/katie-smith-104748-unsplash.jpg", linkTo: "katie-smith-unsplash"},
+            {name: "Rohan Unsplash", imageSrc: "/images/kitchen/rohan-g-803060-unsplash.jpg", linkTo: "rohan-unsplash"},
+            {name: "Heftiba Unsplash", imageSrc: "/images/kitchen/toa-heftiba-530185-unsplash.jpg", linkTo: "toa-heftiba-530185-unsplash"},
+            {name: "Quackenbush Unsplash ", imageSrc: "/images/kitchen/todd-quackenbush-700-unsplash.jpg", linkTo: "todd-quackenbush-unsplash"}
             ]
     }
     render() {

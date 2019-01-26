@@ -5,16 +5,16 @@ class Blogs extends Component {
     constructor() {
         super();
         this.products=[
-            {name: "Agnes Straight Modular Kitchen (Agnes Straight Modular Kitchen)" , imageSrc: "https://cdn.livspace.com/55502-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "blushing-blorals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "Under The Horizon"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "Scarlet Parallel Modular Kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "Blushing Florals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "scarlet-parallel-modular-kitchen"},
+            {name: "Rune Enstad" , imageSrc: "/images/kitchen/rune-enstad-1090369-unsplash.jpg", linkTo: "rune-enstad-unsplash"},
+            {name: "Toa Heftiba Unsplash" , imageSrc: "/images/kitchen/toa-heftiba-616938-unsplash.jpg", linkTo: "toa-heftiba-unsplash"},
+            {name: "Victor Rodriguez" , imageSrc: "/images/kitchen/victor-rodriguez-738808-unsplash.jpg", linkTo: "victor-rodriguez-unsplash"},
+            {name: "Nick Karvounis" , imageSrc: "/images/kitchen/nick-karvounis-538864-unsplash.jpg", linkTo: "nick-karvounis-unsplash"},
+            {name: "Hamed Alishahi Unsplashh" , imageSrc: "/images/kitchen/hamed-alishahi-1108451-unsplash.jpg", linkTo: "hamed-alishahi-unsplashh"},
+            {name: "Alishahi Unsplash " , imageSrc: "/images/kitchen/hamed-alishahi-1188239-unsplash.jpg", linkTo: "alishahi-unsplash"},
+            {name: "Mediterranean Homes" , imageSrc: "/images/kitchen/ialicante-mediterranean-homes-475723-unsplash.jpg", linkTo: "mediterranean-homes-475723-unsplash"},
+            {name: "Iialicante Mediterranean Homes" , imageSrc: "/images/kitchen/ialicante-mediterranean-homes-475751-unsplash.jpg", linkTo: "ialicante-mediterranean-homes-unsplash"},
+            {name: "Jose Soriano" , imageSrc: "/images/kitchen/jose-soriano-1230133-unsplash.jpg", linkTo: "jose-soriano-unsplash"},
+            {name: "Naomi Hebert Unsplash" , imageSrc: "/images/kitchen/naomi-hebert-188443-unsplash.jpg", linkTo: "naomi-hebert-unsplash"},
             ]
     }
     render() {

@@ -6,16 +6,16 @@ class Living extends Component {
         super();
         console.log("living");
         this.products=[
-            {name: "Agnes Straight Modular Kitchen (Agnes Straight Modular Kitchen)" , imageSrc: "https://cdn.livspace.com/55502-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "blushing-blorals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "Under The Horizon"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "Scarlet Parallel Modular Kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "Blushing Florals"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Blushing Florals (Blushing Florals) ", imageSrc: "https://cdn.livspace.com/55501-thickbox/dining-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Under The Horizon (Under The Horizon)", imageSrc: "https://cdn.livspace.com/55499-thickbox/living-room.jpg", linkTo: "agnes-straight-modular-kitchen"},
-            {name: "Scarlet Parallel Modular Kitchen(Scarlet Parallel Modular Kitchen)", imageSrc: "https://cdn.livspace.com/55497-thickbox/kitchen.jpg", linkTo: "scarlet-parallel-modular-kitchen"},
+            {name: "Backsplash Cabinets" , imageSrc: "/images/living/wtc-backsplash-cabinets-1439710.jpg", linkTo: "wtc-backsplash-cabinets"},
+            {name: "Apartment Architecture Armchair ", imageSrc: "/images/living/apartment-architecture-armchair-271805.jpg", linkTo: "apartment-architecture-armchair"},
+            {name: "Ceiling Clean Contemporary", imageSrc: "/images/living/ceiling-clean-contemporary-1457842.jpg", linkTo: "ceiling-clean-contemporary"},
+            {name: "Chair Contemporary Couch", imageSrc: "/images/living/chair-contemporary-couch-1571470.jpg", linkTo: "chair-contemporary-couch"},
+            {name: "Furnitures House Living-room ", imageSrc: "/images/living/furnitures-house-living-room-77931.jpg", linkTo: "furnitures-house-living-room"},
+            {name: "Bookcase Chairs Clean", imageSrc: "/images/living/bookcase-chairs-clean-667838.jpg", linkTo: "bookcase-chairs-clean"},
+            {name: "Apartment Ceiling Chairs", imageSrc: "/images/living/apartment-ceiling-chairs-1571460.jpg", linkTo: "apartment-ceiling-chairs"},
+            {name: "Apartment Chair ", imageSrc: "/images/living/apartment-chair-clean-276686.jpg", linkTo: "apartment-chair-clean"},
+            {name: "Apartment Chair Couch", imageSrc: "/images/living/apartment-chair-couch-276715.jpg", linkTo: "apartment-chair-couch"},
+            {name: "Apartment Scarlet ", imageSrc: "/images/living/apartment-clean-condominium-279719.jpg", linkTo: "apartment-clean-condominium"},
             ]
     }
     render() {
