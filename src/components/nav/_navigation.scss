@@ -210,6 +210,11 @@
                 transform: rotate(45deg);
                 display: none;
             }
+            .constructor {
+                .link-identifier {
+                    display: none !important;
+                }
+            }
             .five-column-row {
                 margin: 0 -15px;
                 .column {

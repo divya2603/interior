@@ -39,7 +39,7 @@ class App extends Component {
             <Route path='/construction/*' exact strict component={Detail}/>
             <Route path='/blogs' exact strict component={Blogs}/>
             <Route path='/blogs/*' exact strict component={Detail}/>
-            <Route path='/consult' exact strict component={ConsultDesigner}/>
+            <Route path='/contact-us' exact strict component={ConsultDesigner}/>
           </div>
         </Router>
         <Footer />

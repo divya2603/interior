@@ -18,7 +18,7 @@ class CardList extends Component {
                 <div className="comp  rooms-container container">
                     <h1 className="heading">{this.props.heading}</h1>
                     <div className="row clearfix">
-                        {this.props.products.map((item, index) => <Card name={item.name} imageSrc={item.imageSrc} key={index} linkTo={this.props.href+item.linkTo}/>)}
+                        {this.props.products.map((item, index) => <Card name={item.name} logo={Image} imageSrc={item.imageSrc} key={index} linkTo={this.props.href+item.linkTo}/>)}
                     </div>
                 </div>
             </div>

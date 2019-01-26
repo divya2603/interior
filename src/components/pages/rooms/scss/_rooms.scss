@@ -65,7 +65,7 @@
                     img {
                         border: 2px solid #fff;
                         //height: 100%;
-                        width: 65px;
+                        width: 80px;
                         height: 65px;
                         background-color: #fff;
                         border-radius: 50%;
@@ -78,5 +78,8 @@
                 }
             }
         }
+    }
+    .img-responsive {
+        height: 500px;
     }
 }

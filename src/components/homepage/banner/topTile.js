@@ -9,7 +9,7 @@ import Slider from '../../carousal/slider'
 import DesignCenters from '../../services/designCenters'
 import Design from '../../services/design'
 import Services from '../../services/services'
-const Image = require('./logo.png');
+const logoImage = require('./logo.png');
 
 class TopTile extends Component {
     constructor(props) {
@@ -58,8 +58,8 @@ class TopTile extends Component {
                                         {/* <img src="https://cdn.livmatrix.com/ls_image/360772/index-new-bg.png" className="img-responsive banner" alt="banner" srcSet=""/> */}
                                     </div>
                                     <div id="home-page-header">
-                                        <NavigationWeb logo={Image} {...this.props}/>
-                                        <NavigationMob logo={Image} {...this.props} />
+                                        <NavigationWeb logo={logoImage} {...this.props}/>
+                                        <NavigationMob logo={logoImage} {...this.props} />
                                     </div>
                                     {/* banner content */}
                                     <div className="banner-content">

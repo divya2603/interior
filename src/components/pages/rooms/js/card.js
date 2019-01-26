@@ -11,7 +11,7 @@ class Card extends Component {
                         <i className="fa fa-heart-o"></i>
                         <img src={this.props.imageSrc} className="img-responsive" alt="room"/>
                         <div className="sticker">
-                            <img className="img-responsive" src="https://cdn.livmatrix.com//img/logos/ruby/livspace-square.png"/>
+                            <img className="img-responsive" src={this.props.logo}/>
                         </div>
                         <div className="product-card-wrap">
                             <div className="product-info">

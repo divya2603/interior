@@ -85,7 +85,7 @@ class NavigationMob extends Component {
                             <a href="/construction" className="text-uppercase">Construction</a>
                             <div className="link-identifier"></div>
                             {/*  dropdown starts here --> */}
-                            <div className="navbar-link-drop-down clearfix construction-dropdown">
+                            {/* <div className="navbar-link-drop-down clearfix construction-dropdown">
                                 <div className="flex-box">
                                     <div className="alt-list">
                                         <div className="alt-drop-down-links">
@@ -97,11 +97,9 @@ class NavigationMob extends Component {
                                                         <li className=""><a href="/wardrobe" className="secondLevelCategory">Wardrobe Designs</a></li>
                                                         <li className=""><a href="/bedrooms" className="secondLevelCategory">Bedroom Quality</a></li>
                                                         <li className=""><a href="/dining-rooms" className="secondLevelCategory">Dining Room</a></li>
-                                                        {/* <li className=""><a href="/kitchen-price-calculator" className="secondLevelCategory">Price estimator</a></li> */}
                                                     </ul>
                                                 </li>
                                             </ul>
-                                            {/* <a href="#" className="seeMoreLink">See All Looks</a>--> */}
                                         </div>
                                     </div>
                                     <div className="alt-images">
@@ -142,11 +140,11 @@ class NavigationMob extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </li>
 
                         {/* Blogs dropdown --> */}
-                        <li className="home-main-nav-link blogs">
+                        {/* <li className="home-main-nav-link blogs">
                             <a href="/blogs" className="text-uppercase">BLOGS</a>
                             <div className="link-identifier"></div>
                             <div className="navbar-link-drop-down clearfix blogs-dropdown">
@@ -166,7 +164,6 @@ class NavigationMob extends Component {
                                                     </ul>
                                                 </li>
                                             </ul>
-                                            {/* <a href="#" className="seeMoreLink">See All Looks</a>--> */}
                                         </div>
                                     </div>
                                     <div className="alt-images">
@@ -210,7 +207,7 @@ class NavigationMob extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </li>
+                        </li> */}
                         
                         {/* About us */}
                         <li className="home-main-nav-link ">

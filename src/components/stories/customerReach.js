@@ -8,14 +8,11 @@ class CustomerReach extends Component {
 
     createSlides(){
         let slidesHtml = [
-            "https://cdn.livmatrix.com/55592-thickbox/living-room.jpg",
-            "https://cdn.livmatrix.com/55576-thickbox/living-room.jpg",
-            "https://cdn.livmatrix.com/55516-thickbox/living-room.jpg",
-            "https://cdn.livmatrix.com/55510-thickbox/study-room.jpg",
-            "http://cdn.livspace.com/55502-thickbox/kitchen.jpg",
-            "http://cdn.livspace.com/55479-thickbox/kitchen.jpg",
-            "http://cdn.livspace.com/55375-thickbox/kitchen.jpg",
-            "http://cdn.livspace.com/55329-thickbox/kitchen.jpg"
+            "/images/interior/antique-art-books-1099816.jpg",
+            "/images/interior/apartment-architecture-ceiling-261045.jpg",
+            "/images/interior/architecture-bathroom-contemporary-280209.jpg",
+            "/images/interior/contemporary-decoration-design-1090638.jpg",
+            "/images/interior/background-creativity-decoration-587441.jpg"
         ];
         return slidesHtml;
     }
